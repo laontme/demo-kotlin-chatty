@@ -13,5 +13,6 @@ repositories {
 
 application {
     // Define the main class for the application.
-    mainClass.set("me.laont.chatty.AppKt")
+    mainClass.set("me.laont.chatty.MainKt")
+}
 }
