@@ -11,6 +11,10 @@ repositories {
     mavenCentral()
 }
 
+dependencies {
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.6.21")
+}
+
 application {
     // Define the main class for the application.
     mainClass.set("me.laont.chatty.MainKt")
