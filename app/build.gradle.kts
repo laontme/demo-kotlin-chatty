@@ -19,4 +19,10 @@ application {
     // Define the main class for the application.
     mainClass.set("me.laont.chatty.MainKt")
 }
+
+tasks.jar {
+    // Set Main-Class attr in MANIFEST.MF to avoid `no main manifest attribute` error
+    manifest {
+        attributes["Main-Class"] = "me.laont.chatty.MainKt"
+    }
 }
