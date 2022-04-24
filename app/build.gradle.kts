@@ -14,6 +14,11 @@ plugins {
     application
 }
 
+repositories {
+    // Use Maven Central for resolving dependencies.
+    mavenCentral()
+}
+
 application {
     // Define the main class for the application.
     mainClass.set("me.laont.chatty.AppKt")
